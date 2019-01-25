@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  background-color: darkslategrey;  
+  padding: 10px;
+  color: white;
+}
+
+button {
+  border: none;
+  background: blanchedalmond;
+  color: black;
+  padding: .5em 2em;
+}
+
+button:hover {
+  background: bisque;
+}

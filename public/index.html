@@ -9,8 +9,8 @@
 </head>
 <body>
   <h1>File Analyzer</h1>
-  <form action="/api/fileanalyze" method="post">
-  <input type="file" name="upload" id="upload">
+  <form action="/api/fileanalyze" method="post" enctype="multipart/form-data">
+  <input type="file" name="upfile" id="upfile">
   <button type="submit">Upload</button>
   </form>
 </body>
